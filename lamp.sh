@@ -18,10 +18,10 @@ sudo apt-get update
 echo "------ Installing Apache2, PHP, MySQL ------"
 sudo apt-get -y install apache2 php libapache2-mod-php php-mcrypt php-curl php-mysql php-gd php-cli php-dev mysql-client
 
-#The following commands set the MySQL root password to 123456 when you install the mysql-server package. Feel free to change it now only.
+#The following commands set the MySQL root password to pa$$word@156 when you install the mysql-server package. Change the passord as per need now only.
 
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password 123456'
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password 123456'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password pa$$word@156'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password pa$$word@156'
 sudo apt-get -y install mysql-server
 
 #After instaling phpmyadmin we will install the php dependencies with phpmyadmin
@@ -40,14 +40,6 @@ sudo a2enmod rewrite
 sudo service apache2 restart && sudo service mysql restart > /dev/null
 
 echo -e "\n"
-
-#Sublime Text is a very light weight text editor.
-#you can skip this if you don't want sublime text editor.
-
-echo "------ Installing sublime text -------"
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get install sublime-text-installer
 
 if [ $? -ne 0 ]; then
    echo "Please check the install services, There is some $(tput bold)$(tput setaf 1)Problem$(tput sgr0)"
