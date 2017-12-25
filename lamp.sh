@@ -24,11 +24,11 @@ sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password passwor
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password 123456'
 sudo apt-get -y install mysql-server
 
-echo "------ Installing phpmyadmin -------"
-
+#After instaling phpmyadmin we will install the php dependencies with phpmyadmin
 #Here also replace the PHP version or else it will give error.
 #For eg: if PHP 7.1 is availble the command will be php7.1-mbstring
 
+echo "------ Installing phpmyadmin -------"
 sudo apt-get install phpmyadmin php-mbstring php-gettext
 
 #Restart all the installed services to verify that everything is installed properly
@@ -45,7 +45,6 @@ echo -e "\n"
 #you can skip this if you don't want sublime text editor.
 
 echo "------ Installing sublime text -------"
-
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
