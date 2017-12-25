@@ -24,7 +24,7 @@ sudo a+x lamp.sh
 
 The following is a list of scripts and and detail explaination of what are they meant to do.
 
-## Built With
+## Scripts with name and description
 
 * [lamp.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp.sh) - This will install Apache2, MySQL, PHP(please verify with latest version) on the server in a single command. Please refer the comments mentoned in the script before running it directly
 * [lamp-st.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp-st.sh) 
