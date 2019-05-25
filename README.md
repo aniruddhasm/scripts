@@ -12,13 +12,13 @@ Ubuntu 16.04
 ```
 
 ## Executing
-
-Consider executing lamp.sh. 
-Please execute the below command one by one in the terminal
+Follow the steps below to execute lamp.sh. 
+Execute the below command one by one in the terminal
 Current I've placed **lamp.sh** file in the home directory and running the script directly from my home directory. You can place it any where just make sure you specify the path correctly.
+
 ```
-sudo a+x lamp.sh
-./lamp.sh
+ubuntu@aniruddhasm:~$ sudo a+x lamp.sh
+ubuntu@aniruddhasm:~$ ./lamp.sh
 ```
 ## The scripts
 
