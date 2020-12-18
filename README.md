@@ -9,6 +9,8 @@ A fresh Ubuntu server or Desktop machine.
 ```
 Ubuntu 14.04
 Ubuntu 16.04
+Ubuntu 18.04
+Ubuntu 20.04
 ```
 
 ## Executing
@@ -26,6 +28,4 @@ The following is a list of scripts and and detail explaination of what are they 
 
 ## Scripts with name and description
 
-* [lamp.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp.sh) - This will install Apache2, MySQL, PHP(please verify with latest version) on the server in a single command. Please refer the comments mentoned in the script before running it directly
-* [lamp-st.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp-st.sh) 
-This will install Apache2, MySQL, PHP(please verify with latest version) on the server in a single command along with sublime text 3. [Sublime Text 3](https://www.sublimetext.com/) is a light weight text editor and you will definitely require it for PHP development. Please run this script on local machine (desktop) if you are looking for PHP development. Please refer the comments mentoned in the script before running it directly.
+* [lamp.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp.sh) - This will install Apache2, MySQL, PHP(please verify with latest version) on the server in a single command. Please refer the comments mentoned in the script before running it directly.
