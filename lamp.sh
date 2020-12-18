@@ -10,13 +10,16 @@ echo "--------------------------------------------------------------------------
 #Update the repositories
 
 sudo apt-get update
+sudo apt -y install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
 
 #Apache2, PHP, MySQL and required packages installation
 #PHP modules are version specify please verify the version while running the script and change accordingly.
 #For eg: if PHP 7.1 is availble the command will be php7.1-mcrypt
 
 echo "------ Installing Apache2, PHP, MySQL ------"
-sudo apt-get -y install apache2 php libapache2-mod-php php-mcrypt php-curl php-mysql php-gd php-cli php-dev mysql-client
+sudo apt-get -y install apache2 php7.4 libapache2-mod-php php7.4-mcrypt php7.4-curl php7.4-mysql php7.4-gd php7.4-cli php7.4-dev mysql-client
 
 #The following commands set the MySQL root password to pa$$word@156 when you install the mysql-server package. Change the passord as per need now only.
 
@@ -29,7 +32,7 @@ sudo apt-get -y install mysql-server
 #For eg: if PHP 7.1 is availble the command will be php7.1-mbstring
 
 echo "------ Installing phpmyadmin -------"
-sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo apt-get install phpmyadmin php7.4-mbstring php7.4-gettext
 
 #Restart all the installed services to verify that everything is installed properly
 
