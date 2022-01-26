@@ -25,5 +25,4 @@ ubuntu@aniruddhasm:~$ ./lamp.sh
 
 ## Scripts with name and description
 
-* [lamp.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp.sh) - This will install Apache2, MySQL, PHP, phpMyAdmin on the server in a single command. 
-Note:- Please refer the comments mentioned in the script before running it directly.
+* [lamp.sh](https://github.com/aniruddhasm/scripts/blob/master/lamp.sh) - This will install Apache2, MySQL, PHP, phpMyAdmin on the server in a single command.
