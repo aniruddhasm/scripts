@@ -19,7 +19,7 @@ sudo apt-get update
 #For eg: if PHP 7.1 is availble the command will be php7.1-mcrypt
 
 echo "------ Installing Apache2, PHP, MySQL ------"
-sudo apt-get -y install apache2 php7.4 libapache2-mod-php php7.4-mcrypt php7.4-curl php7.4-mysql php7.4-gd php7.4-cli php7.4-dev mysql-client
+sudo apt-get -y install apache2 php8.1 libapache2-mod-php php8.1-mcrypt php8.1-curl php8.1-mysql php8.1-gd php8.1-cli php8.1-dev mysql-client
 
 #The following commands set the MySQL root password to pa$$word@156 when you install the mysql-server package. Change the passord as per need now only.
 
@@ -29,10 +29,10 @@ sudo apt-get -y install mysql-server
 
 #After instaling phpmyadmin we will install the php dependencies with phpmyadmin
 #Here also replace the PHP version or else it will give error.
-#For eg: if PHP 7.1 is availble the command will be php7.1-mbstring
+#For eg: if PHP 8.1 is availble the command will be php8.1-mbstring
 
 echo "------ Installing phpmyadmin -------"
-sudo apt-get install phpmyadmin php7.4-mbstring php7.4-gettext
+sudo apt-get install phpmyadmin php8.1-mbstring php8.1-gettext
 
 #Restart all the installed services to verify that everything is installed properly
 
