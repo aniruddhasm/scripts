@@ -4,7 +4,7 @@ This repository has scripts that will help you install server environment as per
 
 ### Prerequisites
 
-A fresh Ubuntu server or Desktop machine.
+A Ubuntu server or Desktop machine.
 
 ```
 Ubuntu 14.04
